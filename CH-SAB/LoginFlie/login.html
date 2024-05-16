@@ -9,20 +9,9 @@
 </head>
 <body>
     <div class="logo-container">
-        <img src="./Photo/Walailak_University_Logo.png" alt="">
+        <img src="./Photo/logo.png" alt="">
     </div>
     <div class="login-container">
-        <div class="slideshow-container slideshow-container-right">
-            <div class="mySlides fade">
-                <img src="./Photo/Kaguya.jpg" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="./Photo/Mahiru.jpeg" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="./Photo/unnamed (1).jpg" style="width:100%">
-            </div>
-        </div>
         <h2>ยินดีต้อนรับ</h2>
         <form id="loginForm" action="/login" method="POST">
             <div class="input-group">
@@ -33,11 +22,13 @@
                 <label for="password">รหัสผ่าน</label>
                 <input type="password" id="password" name="password" required placeholder="รหัสผ่าน">
             </div>
+            <small id="passwordHelp" class="form-text text-muted">Password คือ วันเดือนปี เกิด เช่น
+                01/01/2545 ให้ใส่ 01012545</small>
             <button type="submit">Login</button>
         </form>
     </div>
-    <footer>
-        <p class="footer-credit">Hello</p>
+    <footer class="footer-credit">
+        <p class="footer-text">@SAB IT Team 2024</p>
     </footer>
     <script src="script.js"></script>
 </body>

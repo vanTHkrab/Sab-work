@@ -27,7 +27,7 @@ img {
 }
 
 .logo-container img {
-    width: 120px;
+    width: 180px;
     height: auto;
 }
 
@@ -40,47 +40,13 @@ img {
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     height: 320px;
     text-align: center;
     position: relative;
     overflow: hidden;
 }
 
-
-
-.slideshow-container {
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    width: 30%;
-    height: auto;
-    z-index: -1;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-right: -20px; /* เพิ่ม margin-right เพื่อลบพื้นที่ว่างด้านขวา */
-}
-
-.mySlides {
-    display: none;
-}
-
-.mySlides img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from { opacity: .4; } 
-    to { opacity: 1; }
-}
 
 .login-container h2 {
     margin-bottom: 25px;
@@ -101,7 +67,7 @@ img {
 }
 
 .input-group input {
-    width: 60%;
+    width: 80%;
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 6px;
@@ -110,7 +76,7 @@ img {
 
 button {
     display: flex;
-    width: 10%;
+    width: 13%;
     padding: 12px;
     background-color: purple;
     border: none;
@@ -127,10 +93,20 @@ button:hover {
 }
 
 .footer-credit {
-    position: absolute;
-    top: 95vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(165, 165, 165, 0.9);
+    text-align: center; 
+    opacity: 0.8;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+
+.footer-text {
+    font-size: 14px;
+    font-weight: bold;
 }
 
 @media (max-width: 480px) {
