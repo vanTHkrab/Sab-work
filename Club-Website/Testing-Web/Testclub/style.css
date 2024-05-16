@@ -1,0 +1,42 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(66, 5, 66);
+}
+
+.headinfo {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.contener {
+    background-color: aqua;
+}
+
+.contant {
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    
+}
+
+.box {
+    background-color: wheat;
+    width: 800px; 
+    padding: 10px; 
+    color: white; 
+}
+
+.picture {
+    filter: blur(1px) brightness(110%);
+    width: 100vw; 
+    height: auto; 
+    max-width: 100%; 
+}

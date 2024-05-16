@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+body {
+    font-family: Kanit, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(66, 5, 66);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+}
+
+.Head-info {
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.percentage-bar {
+    height: 40px;
+    background-color: #4caf50; /* สีเริ่มต้นของแท่ง */
+}
+
+.bar-container {
+    background-color: #ddd;
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.percentage-text {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 30px 20px;
+    }
+    
+    .login-container h2 {
+        font-size: 24px;
+    }
+    
+    .input-group input {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    button {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
